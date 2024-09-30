@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://marketplace.canva.com/EAFCytpuJ08/1/0/1600w/canva-green-wateroclor-leaf-linktree-background-0Mp0WYk6_8E.jpg');
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(9, 61, 59);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(2, 26, 24);
+    border: 3px solid rgb(2, 26, 24);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#password-output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+   
+}
